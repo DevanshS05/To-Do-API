@@ -1,7 +1,7 @@
 let tasks = [];
 
 async function fetchPosts(){
-    const response = await fetch('https://api.kanye.rest',{method:'GET'})
+    const response = await fetch('http://localhost:5000/api',{method:'GET'})
     .then((response)=>response.json())
     .then((data)=>console.log(data.quote))
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task-Manager</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="https://cdn.tailwindcss.com"></script>    
+    </head>
+    <body style="background-color:#FCF9C6;">
+        <div class="container mx-auto max-w-lg rounded-md" style="text-align:center;background-color:#C7D36F;" id="boxOne">
+            <h1 class="font-bold text-2xl" style="margin-bottom:10px">To-do List</h1>
+            <input class="w-3/4" type="text" id="taskDetails"></input>
+            <br>
+            <button class="rounded-md" id="submit-task">Add Task</button>
+            <div class="font-bold"id="message-box" style="height:30px"></div>
+        </div>
+
+        <div id="task-List" class="container mx-auto max-w-lg rounded-md" style="margin-top:30px;padding:15px 5px 5px 5px;background-color:#C7D36F;"></div>
+
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>

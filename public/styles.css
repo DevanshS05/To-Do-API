@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+    padding-top:50px;
+}
+#boxOne{
+    /* padding-top:50px; */
+    padding:50px 20px 20px 20px ;
+}
+#taskDetails{
+    border: solid 3px grey;
+}
+#submit-task{
+    margin-top:15px;
+    margin-bottom:10px;
+    width:90px;
+    height:35px;
+    background-color:rgb(132 204 22);
+    color : black;
+}
+#submit-task:hover{
+    background-color:rgb(101 163 13);
+}
+.taskBox{
+    margin:0px 15px 0px 15px;
+    padding:5px;
+    background-color:#9EB23B;
+    /* color:#E0DECA; */
+}
+.deleteBox{
+    height:14px;
+    width:14px;
+    border-radius:7px;
+}
